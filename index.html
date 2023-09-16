@@ -2,12 +2,30 @@
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
+        <title>HTML Semântico - Home</title>
+
+        
+        <!-- CSS externo -->
+        <link rel="stylesheet" href="./style.css">
+
+        <!-- CSS interno -->
+        <style>
+            body {
+                color:brown;
+            }
+            body {
+                color:blueviolet;
+            }
+            </style>
     </head>
-    <body>
+
+    <!-- CSS inline -->
+    <body style="color: green;">
 
         <header>
             <nav>
                 <!-- O menu de navegação vem aqui -->
+                <a href="./atividade1.html">Atividade 1</a>
             </nav>
         </header>
 
@@ -27,7 +45,7 @@
                     <p>por João Roccella</p>
                 </header>
                 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas cum commodi numquam architecto magnam quos porro? Dolorum et harum labore.</p>
+                <p>Lorem ipsum <span style="color:yellow;">dolor</span> sit amet, consectetur adipisicing elit. Quas cum commodi numquam architecto magnam quos porro? Dolorum et harum labore.</p>
                 
             </article>
 
@@ -62,6 +80,9 @@
             <!-- Aqui vem o rodapé do site -->
         </footer>
 
+        <script>
+            window.alert('Olá, mundo!');
+        </script>
     </body>
 
 </html>
